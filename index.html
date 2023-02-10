@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Hotels</title>
+  </head>
+  <body>
+    <div class="container">  
+      <header class="header">
+        <!-- nav-heading -->
+        <nav class="navbar navbar-expand-lg my-4">
+          <div class="container-fluid">
+            <div class="navbar-collapse justify-content-center">
+              <ul class="navbar-nav navbar-list">
+                <li class="nav-item me-5">
+                  <a class="nav-link" href="#booking">Booking</a>
+                </li>
+                <li class="nav-item me-5">
+                  <a class="nav-link" href="#facilities">Facilities</a>
+                </li>
+                <li class="nav-item me-5">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#">Location</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <button type="button" class="btn btn-success rounded-5" style="background: #24ab70;">Login</button>
+        </div>
+      </nav>
+      <!-- panel -->
+      <div id="booking" class="row heading__panel mb-5">
+        <div class="col p-0 heading__panel--content">
+          <div class="panel-content m-5 p-3 pt-5">
+            <p class="h1 panel-title mb-5">Find your perfect place to stay</p>
+            <p class="panel-subtitle mb-5">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="btn__watch d-flex">
+              <a
+              href="#"
+              class="d-flex justify-content-center btn__watch-link me-3"
+              >
+              <i class="bi bi-play-fill btn__watch--icon"></i>
+            </a>
+            <p class="btn__watch--text">Watch video</p>
+          </div>
+        </div>
+        </div>
+        <div class="col p-0">
+          <img src="assets/img/panel.png" alt="" />
+        </div>
+        <!-- nav-infor -->
+        <nav class="navbar navbar-expand-lg my-4 nav-infor">
+          <div class="container-fluid">
+            <div class="navbar-collapse justify-content-center ">
+              <ul class="navbar-nav navbar-list justify-content-end rounded-pill nav-infor--bg">
+                <div>
+                  <div class="vertical-line me-3"></div>
+                <li class="nav-item me-5">
+                  <a class="nav-link" href="#"><i class="bi bi-geo-alt-fill infor-icon"></i>Location</a>
+                  <span class="d-flex ms-4" data-selected="true" data-label-id="0" style="opacity: 0.5; position: relative; left: 14px;">United States</span>
+                </li>
+              </div>
+              <div>
+                <div class="vertical-line me-3"></div>
+                <li class="nav-item me-5">
+                  <a class="nav-link" href="#"><i class="bi bi-calendar2-plus infor-icon"></i>Check in</a>
+                  <span class="d-flex ms-4" data-selected="true" data-label-id="0" style="opacity: 0.5; position: relative; left: 14px;">10 Jun 2021</span>
+                </li>
+              </div>
+              <div>
+                  <div class="vertical-line me-3"></div>
+                  <li class="nav-item me-5">
+                  <a class="nav-link" href="#"><i class="bi bi-calendar-check-fill infor-icon"></i>Check out</a>
+                <span class="d-flex ms-4" data-selected="true" data-label-id="0" style="opacity: 0.5; position: relative; left: 14px;">15 Jun 2021</span>
+                </li>
+            </div>
+            <div>
+              <li class="nav-item me-5">
+                <a class="nav-link" href="#"><i class="bi bi-person-fill infor-icon"></i>Rooms for</a>
+                <span class="d-flex ms-4" data-selected="true" data-label-id="0" style="opacity: 0.5; position: relative; left: 14px;">1 room, 2 guests</span>
+              </li>
+            </div>
+              <div class="d-flex justify-content-end rounded-pill nav-infor__search">
+                <i class="bi bi-search search--icon ms-3"></i>
+                <input class="form-control mr-sm-2 border-0 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+              </div>
+            </ul> 
+      </nav>
+      </div>
+    
+    </header>
+
+    <div class="app__container">
+      <!-- container-review -->
+      <div id="facilities" class="container-review mtb-12">
+        <div class="container-review__content mb-5">
+          <div class="container-review--tittle">
+            <p class="h1">Our most popular Hotels</p>
+          </div>
+          <div class="d-flex justify-content-between">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <button class="btn btn-outline-success rounded-pill" style="color: #24ab70">View All</button>
+          </div>
+        </div>
+          <div class="row mb-5">
+            <div class="col-4">
+              <div class="card border-0">
+                <img class="card-img-top" src="assets/img/Danubius-Hotel-Regents-Park.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-address mt-2" >London NW8 7JT England</p>
+                  <h5 class="card-title mb-4">Danubius Hotel Regents Park</h5>
+                  <div class="d-flex justify-content-between">
+                    <p class="card-price">$200 Par Night</p>
+                    <ul class="nav">
+                      <li class="nav-item" style="color: #ccc;"><i class="bi bi-star-fill"></i></li>
+                      <li class="nav-item" style="color: #ccc;"><i class="bi bi-star-fill"></i></li>
+                      <li class="nav-item" style="color: #ccc;"><i class="bi bi-star-fill"></i></li>
+                      <li class="nav-item" style="color: #ccc;"><i class="bi bi-star-fill"></i></li>
+                      <li class="nav-item" style="color: #ccc;"><i class="bi bi-star-fill"></i></li>
+                      <li class="nav-item me-5 ms-2">4.8</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card border-0">
+                <img class="card-img-top" src="assets/img/The-Resident-Soho.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-address mt-2" >London NW8 7JT England</p>
+                  <h5 class="card-title mb-4">The Resident Soho</h5>
+                  <div class="d-flex justify-content-between">
+                    <p class="card-price">$200 Par Night</p>
+                    <ul class="nav">
+                      <li class="nav-item" style="color: #ccc;"><i class="bi bi-star-fill"></i></li>
+                      <li class="nav-item" style="color: #ccc;"><i class="bi bi-star-fill"></i></li>
+                      <li class="nav-item" style="color: #ccc;"><i class="bi bi-star-fill"></i></li>
+                      <li class="nav-item" style="color: #ccc;"><i class="bi bi-star-fill"></i></li>
+                      <li class="nav-item" style="color: #ccc;"><i class="bi bi-star-fill"></i></li>
+                      <li class="nav-item me-5 ms-2">4.8</li>
+                    </ul>
+                  </div>                
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card border-0">
+                <img class="card-img-top" src="assets/img/London-Bridge-Hotel.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-address mt-2" >London NW8 7JT England</p>
+                  <h5 class="card-title mb-4">London Bridge Hotel</h5>
+                  <div class="d-flex justify-content-between">
+                    <p class="card-price">$200 Par Night</p>
+                    <ul class="nav">
+                      <li class="nav-item" style="color: #ccc;"><i class="bi bi-star-fill"></i></li>
+                      <li class="nav-item" style="color: #ccc;"><i class="bi bi-star-fill"></i></li>
+                      <li class="nav-item" style="color: #ccc;"><i class="bi bi-star-fill"></i></li>
+                      <li class="nav-item" style="color: #ccc;"><i class="bi bi-star-fill"></i></li>
+                      <li class="nav-item" style="color: #ccc;"><i class="bi bi-star-fill"></i></li>
+                      <li class="nav-item me-5 ms-2">4.8</li>
+                    </ul>
+                  </div>                
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- container-intro -->
+      <div class="row mtb-12">
+        <div class="col-4 intro--title">
+          <p class="h1">We do our best facilities provide you</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>
+          <button class="btn btn-success rounded-pill mt-4" style="background: #24ab70;height: 50px;">Contact Now</button>
+        </div>
+        <div class="col-8">
+          <div class="row">
+            <div class="col-3 d-flex justify-content-center align-items-center p-0  intro__icon">
+              <div class="intro__icon-box">
+              <i class="bi bi-person-workspace mb-3 intro__icon--img"></i>
+              <p class="intro__icon--text">Private Workspace</p>
+            </div>
+            </div>
+            <div class="col-3 d-flex justify-content-center align-items-center p-0  intro__icon">
+              <div class="intro__icon-box">
+              <i class="bi bi-p-circle mb-3 intro__icon--img"></i>
+              <p class="intro__icon--text">Parking Area</p>
+            </div>
+            </div>
+            <div class="col-3 d-flex justify-content-center align-items-center p-0  intro__icon">
+              <div class="intro__icon-box">
+              <i class="bi bi-cloud-sun-fill mb-3 intro__icon--img"></i>
+              <p class="intro__icon--text">Breakfast</p>
+            </div>
+            </div>
+            <div class="col-3 d-flex justify-content-center align-items-center p-0  intro__icon">
+              <div class="intro__icon-box">
+              <i class="bi bi-wifi mb-3 intro__icon--img"></i>
+              <p class="intro__icon--text">Free Wifi</p>
+            </div>
+            </div>
+            <div class="col-3 d-flex justify-content-center align-items-center p-0  intro__icon">
+              <div class="intro__icon-box">
+              <i class="bi bi-lightning mb-3 intro__icon--img"></i>
+              <p class="intro__icon--text">Free Electricity</p>
+            </div>
+            </div>
+            <div class="col-3 d-flex justify-content-center align-items-center p-0  intro__icon">
+              <div class="intro__icon-box">
+              <i class="bi bi-tsunami mb-3 intro__icon--img"></i>
+              <p class="intro__icon--text">Swimming Pool</p>
+            </div>
+            </div>
+            <div class="col-3 d-flex justify-content-center align-items-center p-0  intro__icon">
+              <div class="intro__icon-box">
+              <i class="bi bi-rocket-takeoff mb-3 intro__icon--img"></i>
+              <p class="intro__icon--text">Exercise Space</p>
+            </div>
+            </div>
+            <div class="col-3 d-flex justify-content-center align-items-center p-0  intro__icon">
+              <div class="intro__icon-box">
+              <i class="bi bi-three-dots mb-3 intro__icon--img"></i>
+              <p class="intro__icon--text">Other Service</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- container-panel -->
+      <div id="booking" class="row container-intro__panel mb-5">
+        <div class="col p-0">
+          <img style="width: 100%;" src="assets/img/intro__panel.png" alt="" />
+        </div>
+        <div class="col p-0 heading__panel--content">
+          <div class="panel-content m-5 p-3 pt-1">
+            <p class="h1 panel-title mb-3">Discover our History</p>
+            <p class="container-intro--subtitle">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+            </p>
+            <p class="container-intro--subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <div class="btn btn-success rounded-pill mt-5">Explore More</div>
+        </div>
+        </div>
+    </div>
+    <!-- container-slide -->
+    <div class="container-slider mtb-12">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner " style="background: #FAFAFA;">
+        <div class="carousel-item">
+          <div class="d-flex slide__content align-items-center ms-5" >
+            <div class="slide__content--text ms-5">
+            <p class="mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p class="h2 mb-3">Alexandr Ivchenko</p>
+            <p >Businessman</p>
+            </div>
+            <div class="ms-5 slide__content--img">
+              <img src="assets/img/slide-img.png" alt="First slide">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex slide__content align-items-center ms-5" >
+            <div class="slide__content--text ms-5">
+            <p class="mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p class="h2 mb-3">Alexandr Ivchenko</p>
+            <p >Businessman</p>
+            </div>
+            <div class="ms-5 slide__content--img">
+              <img src="assets/img/slide-img.png" alt="First slide">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <div class="d-flex slide__content align-items-center ms-5" >
+            <div class="slide__content--text ms-5">
+            <p class="mb-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p class="h2 mb-3">Alexandr Ivchenko</p>
+            <p >Businessman</p>
+            </div>
+            <div class="ms-5 slide__content--img">
+              <img src="assets/img/slide-img.png" alt="First slide">
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+    <!-- container-map -->
+    <div class="container-map w-auto h-auto p-2 mtb-12 position-relative">
+      <img  src="assets/img/map.png" alt="">
+      <div class="container-form d-flex justify-content-evenly bottom-0 start-0 end-0 position-absolute h-25">
+        <div class="container-form d-flex justify-content-evenly mb-5 rounded-2" style="background: #fff; opacity: 0.9;">
+        <div class="form-content mt-2" style="width: 50%;">
+          <p class="h2">Location of our Hotelos</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
+        </div>
+        <div class="form-mail mt-5">
+          <input class="border-0" type="email" placeholder="Email">
+          <button class="btn btn-success rounded-5" style="background: #24ab70;">Contact</button>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <footer class="footer" style="margin-top: 300px; margin-bottom: 60px;">
+      <div class="row ps-5">
+        <div class="col-4 pt-3">
+          <div class="footer-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam perspiciatis eum optio excepturi deleniti totam architecto dolores eligendi culpa iste? Laudantium facilis ut mollitia ab ducimus aspernatur repudiandae doloremque odit!</p>
+          </div>
+          <div class="footer-info--icon">
+            <i class="bi bi-facebook fs-4 p-2"  style="color: #1877F2"></i>
+            <i class="bi bi-instagram fs-4 p-2" style="color: #F55D61;"></i>
+            <i class="bi bi-twitter fs-4 p-2" style="color: #18b4f2"></i>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="row ms-5">
+          <div class="col-4">
+            <div class="row">
+              <p class="col-12 h2 fs-4 fw-bold">Home</p>
+              <a class="text-decoration-none" style="color: #636363" href="#">Booking</a>
+              <a class="text-decoration-none" style="color: #636363" href="#">Facilities</a>
+              <a class="text-decoration-none" style="color: #636363" href="#">Location</a>
+              <a class="text-decoration-none" style="color: #636363" href="#">Contact</a>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="row">
+                <p class="col-12 h2 fs-4 fw-bold">Help</p>
+                <a class="text-decoration-none" style="color: #636363" href="#">About Us</a>
+                <a class="text-decoration-none" style="color: #636363" href="#">Help center</a>
+                <a class="text-decoration-none" style="color: #636363" href="#">Privacy policy</a>
+                <a class="text-decoration-none" style="color: #636363" href="#">FAQs</a>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="row">
+                  <p class="col-12 h2 fs-4 fw-bold">Get the app</p>
+                  <a class="text-decoration-none" style="color: #636363" href="#">iOS app</a>
+                  <a class="text-decoration-none" style="color: #636363" href="#">Android app</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <!-- script -->  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </html>
+  

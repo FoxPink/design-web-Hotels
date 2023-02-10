@@ -1,0 +1,125 @@
+:root {
+  --primary-color: #24ab70;
+}
+.mtb-12 {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar-list a {
+  font-size: 1rem;
+}
+.heading__panel {
+  position: relative;
+}
+.heading__panel--content {
+  width: auto;
+  height: auto;
+  background: #f1f6f4;
+}
+.panel-title {
+  font-size: 4rem;
+  font-weight: 600;
+}
+.panel-subtitle {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.btn__watch-link {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  line-height: 40px;
+}
+.btn__watch--icon {
+  font-size: 30px;
+  color: var(--primary-color);
+}
+.btn__watch--text {
+  line-height: 40px;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.nav-infor {
+  position: absolute;
+  bottom: 30px;
+  top: auto;
+}
+.nav-infor--bg {
+  width: 1000px;
+  height: 80px;
+  background: #fff;
+}
+.nav-infor--bg li a {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.infor-icon {
+  margin-right: 10px;
+  color: var(--primary-color);
+}
+.nav-infor__search {
+  background: var(--primary-color);
+}
+.search--icon {
+  line-height: 80px;
+  color: #fff;
+}
+.nav-infor__search input {
+  background: var(--primary-color);
+  outline: none;
+}
+div.vertical-line {
+  position: relative;
+  width: 1px;
+  background-color: #ccc;
+  height: 70%;
+  float: right;
+  top: 12px;
+}
+
+.card {
+  background: #fafafa;
+  border-top-right-radius: 18px;
+  border-top-left-radius: 18px;
+}
+.card-address {
+  font-size: 0.75rem;
+  color: var(--primary-color);
+}
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.intro--title {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.intro__icon {
+  width: 193px;
+  height: 193px;
+  border: solid 1px #f0eded;
+  margin: 0 13px 26px 13px;
+  box-shadow: 3px 4px 18px #e7e4e4;
+  border-radius: 6px;
+}
+.intro__icon--img {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+}
+.intro__icon--text {
+  font-size: 18px;
+}
